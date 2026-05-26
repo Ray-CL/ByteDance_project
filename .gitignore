@@ -9,3 +9,4 @@ local.properties
 .cxx/
 app/build/
 app/release/
+.claude/
