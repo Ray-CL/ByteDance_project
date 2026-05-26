@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ImageFlow</string>
+    <string name="menu_clear_cache">清除缓存</string>
+    <string name="menu_clear_history">清除历史记录</string>
+    <string name="loading">Loading...</string>
+    <string name="load_failed">Load failed</string>
+    <string name="offline_no_cache">Offline. Connect to download.</string>
+    <string name="detail_title">Image Detail</string>
+    <string name="tab_recommend">推荐</string>
+    <string name="tab_history">历史记录</string>
+    <string name="tab_favorite">收藏</string>
+    <string name="favorite">收藏</string>
+    <string name="unfavorite">取消收藏</string>
+    <string name="toast_cache_cleared">已清除缓存</string>
+    <string name="toast_history_cleared">已清除历史记录</string>
+    <string name="toast_favorite_added">已收藏</string>
+    <string name="toast_favorite_removed">已取消收藏</string>
+</resources>
