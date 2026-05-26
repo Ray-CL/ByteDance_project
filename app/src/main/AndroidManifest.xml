@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_placeholder"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.ImageFlow">
+
+        <!-- 详情页：设为 false，不允许外部调用 -->
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+
+        <!-- 主界面：设为 true，允许作为启动页被系统调用 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
