@@ -28,4 +28,4 @@ ImageFlow 是一个 Kotlin Android 应用，展示双列图片流与详情页，
 - 学习总结：docs/learning-summary.md
 - 演示视频：单独录制并提交
 ## 演示视频
-<video src="homework/Screen_recording.mp4" width="300px" controls></video>
+[点击观看演示视频](homework/Screen_recording.mp4)
